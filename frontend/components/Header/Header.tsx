@@ -1,4 +1,5 @@
 import * as S from "./HeaderStyle";
+import Image from "next/image";
 
 export default function Header() {
   return (
