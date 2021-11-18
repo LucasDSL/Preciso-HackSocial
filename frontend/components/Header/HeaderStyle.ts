@@ -57,7 +57,7 @@ align-self: center;
 justify-content: center;
 justify-self: center;
 height: 100%;
-background-color:#aaa;
+
 
 `
 

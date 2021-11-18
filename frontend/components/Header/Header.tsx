@@ -14,7 +14,7 @@ export default function Header() {
           <h1>Possibilidades</h1>
         </S.Possibilidades>
       </S.Botoes>
-      <S.Perfil>huauhasaus</S.Perfil>
+      <S.Perfil>PerfilPerfilPerfil</S.Perfil>
     </S.Header>
   );
 }
