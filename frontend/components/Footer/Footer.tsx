@@ -9,7 +9,9 @@ export default function Footer() {
         <div>
           <Image src={imgSrc} alt="github-logo" layout="intrinsic" />
         </div>
-        <p>Preciso 2021 - Desenvolvido por JS Mental ©</p>
+        <p>
+          Preciso 2021 - <span>Desenvolvido por</span> JS Mental ©
+        </p>
       </a>
     </S.Footer>
   );

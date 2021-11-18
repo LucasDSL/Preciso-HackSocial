@@ -17,6 +17,10 @@ export const Footer = styled.footer`
   }
   p {
     font-size:10px;
+    font-weight: 600;
+  }
+  p > span{
+    font-style: italic;
   }
   @media (min-width: 768px) {
     p{
