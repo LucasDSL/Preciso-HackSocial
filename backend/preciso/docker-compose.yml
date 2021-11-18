@@ -1,0 +1,13 @@
+version: "3"
+services:
+  db:
+    image: 'mariadb:latest'
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: "58274169"
+      MYSQL_DATABASE: "preciso-api_db"
+      MYSQL_USER: "root"
+    ports:
+      - "3360:3306"
+    volumes:
+      - ./mariadb-data:/bar/lib/mariadb
