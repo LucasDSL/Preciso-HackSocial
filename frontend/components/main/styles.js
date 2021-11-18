@@ -20,9 +20,12 @@ export const StyledMain = styled.main`
     .alignButtons {
         display: flex;
         flex-content: row;
+        width: 100%;
+        justify-content: space-between;
     }
 
     input {
+        color: white;
         background-color: transparent; 
         border-radius: 60px;
         border: 1px solid white;
@@ -30,16 +33,10 @@ export const StyledMain = styled.main`
     }
 
     .label-input {
+        color: white;
         display: flex;
         flex-direction: column;
         width: 90%;
-        margin: 1%;
-    }
-
-    .label-inputEnd {
-        display: flex;
-        flex-direction: column;
-        width: 50%;
         margin: 1%;
     }
 
@@ -49,14 +46,28 @@ export const StyledMain = styled.main`
         font-weight: 500;
         border: none;
         cursor: pointer;
+        width: 150px;
+        max-height: 40px;
+        margin-top: 7%;
     }
 
     #cancel {
         background-color: #96969C;
-        
+        margin-left: 10%;
     }
 
     #send {
         background-color: #006466;        
+    }
+
+    span {
+        margin-left: 12px;
+        padding: 0 4px;
+        background-color: #10142D;
+        position: relative;
+        align-self: flex-start;
+        top: 8px;
+        transition: background-color 0.3s;
+        z-index: 1;
     }
 `;

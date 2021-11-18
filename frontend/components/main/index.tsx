@@ -35,14 +35,13 @@ export default function Main() {
         </div>
 
         <div className='alignInputs'>
-            <label className='label-inputEnd'>
+            <label className='label-input'>
                 <span>Quantidade</span>
             <input type='text' /></label>
 
             <div className='alignButtons'>
-
-                <button id='cancel'>Cancelar</button>
-                <button id='send'>Enviar</button>
+                <button id='cancel' type="submit">Cancelar</button>
+                <button id='send' type="reset">Enviar</button>
             </div>
         </div>
         
