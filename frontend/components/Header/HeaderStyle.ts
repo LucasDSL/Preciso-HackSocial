@@ -7,7 +7,7 @@ width: 100%;
 background-color: #272640;
 height: 90px;
 align-items: center;
-
+padding-left: 3%;
 justify-content: space-around;
 h1 {
     font-family: Poppins;
@@ -32,7 +32,7 @@ justify-content: center;
 height: 100%;
 width:20%;
 margin-top: 3px;
-border-bottom: 3px solid white;
+border-bottom: 1px solid white;
 p {
     margin-top:15px;
     align-items: center;
@@ -77,9 +77,67 @@ width: 50%;
 
 `
 
+export const LivroCinzaWrapper = styled.div `
+width: 24px;
+height: 24px;
+margin-right:13px;
+
+`
+
+export const SettingsWrapper = styled.div `
+width: 24px;
+height: 24px;
+margin-right:13px;
+`
+
 export const Perfil = styled.div `
 display: flex;
 flex-direction: row;
-width: 30%;
+width: 15%;
+height: 100%;
+align-items:center;
 
 `
+
+export const FotoDePerfilWrapper = styled.div `
+display: flex;
+width: 22.6%;
+height: 56.52%;
+align-items: center;
+justify-content: center;
+background:#FFFFFF;
+border-radius: 75px;
+ p {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 1.2rem;
+line-height: 1.65rem;
+ }
+`
+export const NomeEProfissao = styled.div `
+display: flex;
+flex-direction: column;
+justify-content: center;
+width:75%;
+height: 100%;
+padding-left: 8px;
+h1 {
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+}
+h2 {
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+color: #FFFFFF;
+
+}
+`
+
