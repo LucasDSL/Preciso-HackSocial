@@ -9,7 +9,7 @@ export const Footer = styled.footer`
     text-decoration: none;
     display: flex;
     align-items: center;
-    padding: 15px 0px;
+    padding: 20px 0px;
     gap: 5px;
   }
   div {

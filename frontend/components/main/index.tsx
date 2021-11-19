@@ -12,7 +12,7 @@ export default function Main() {
 
         <label className="label-input">
           <span>Reservado por</span>
-          <input type="" placeholder="" />
+          <input type="text" placeholder="" />
         </label>
       </div>
 
