@@ -9,6 +9,11 @@ height: 90px;
 align-items: center;
 padding-left: 3%;
 justify-content: space-around;
+@media (max-width:1010px){
+    z-index: 1000;
+    justify-content:space-between;
+    padding-right: 5%;
+}
 h1 {
     font-family: Poppins;
 font-style: normal;
@@ -26,6 +31,7 @@ color: #C5C5C5;
 `
 
 export const PrecisoWrapper = styled.div `
+z-index: 100;
 align-self: center;
 align-items: center;
 justify-content: center;
@@ -57,7 +63,9 @@ align-self: center;
 justify-content: center;
 justify-self: center;
 height: 100%;
-
+@media (max-width:1010px){
+    display:none;
+}
 
 `
 
@@ -66,7 +74,6 @@ align-items: center;
 display: flex;
 flex-direction: row;
 width: 50%;
-
 `
 
 export const Possibilidades = styled.div `
@@ -96,6 +103,9 @@ flex-direction: row;
 width: 15%;
 height: 100%;
 align-items:center;
+@media (max-width:1010px){
+    display:none;
+}
 
 `
 
@@ -106,7 +116,7 @@ height: 56.52%;
 align-items: center;
 justify-content: center;
 background:#FFFFFF;
-border-radius: 75px;
+border-radius: 4.688rem;
  p {
     font-family: Poppins;
 font-style: normal;
