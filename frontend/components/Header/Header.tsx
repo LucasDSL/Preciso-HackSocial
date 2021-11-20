@@ -45,12 +45,7 @@ export default function Header() {
         </P.MenuToggle>
       </S.Header>
       <P.MenuAberto isOpen={isOpen}>
-        <MenuResponsivoConteudo
-          texto="Sua conta"
-          imagens={true}
-          imagens2={true}
-          imagens3={false}
-        />
+        <MenuResponsivoConteudo texto="Sua conta" imagens3={true} />
         <MenuResponsivoConteudo
           texto="Ver pedidos"
           imagens={true}

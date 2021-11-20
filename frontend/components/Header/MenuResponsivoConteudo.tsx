@@ -4,11 +4,12 @@ import * as P from "./MenuMobileStyle";
 import Livro from "../../public/reding_grey.png";
 import Livro2 from "../../public/reading_blue.png";
 import Engrenagens from "../../public/settings_grey.png";
+import Perfil from "../../public/user.png";
 
 interface Props {
   texto: string;
-  imagens: boolean;
-  imagens2: boolean;
+  imagens?: boolean;
+  imagens2?: boolean;
   imagens3: boolean;
 }
 
@@ -30,7 +31,7 @@ export default function MenuResponsivoConteudo({
         </P.ImgWrpper>
       ) : (
         <P.ImgWrpper>
-          <Image src={imagens3 ? Livro2 : ""} layout="intrinsic" alt="asusa" />
+          <Image src={imagens3 ? Perfil : " "} layout="intrinsic" alt="asusa" />
         </P.ImgWrpper>
       )}
       <h1>{texto}</h1>

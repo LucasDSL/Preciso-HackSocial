@@ -51,8 +51,8 @@ export const MenuAberto = styled.div`
     justify-content: center;
     left: 0;
     top: 0;
-    width: 100vw;
-    height: 83vh;
+    width: 100%;
+    height: 100%;
     background-color: #272640;
   }
 `
@@ -65,17 +65,17 @@ export const MenuResponsivoConteudo = styled.div`
   width: 100%;
   height: 18%;
   background: #272640;
-  margin-top: 5%;
+  margin-top: 9%;
   h1 {
-
+    margin-top:3%;
     display: flex;
     align-items: center;
     text-align: center;
     font-family: Poppins;
 font-style: normal;
 font-weight: 500;
-font-size: 1.4rem;
-line-height: 2.6rem;
+font-size: 1.8rem;
+line-height: 3rem;
 /* identical to box height */
 
 
