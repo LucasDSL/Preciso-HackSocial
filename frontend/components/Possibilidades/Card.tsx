@@ -7,8 +7,8 @@ export default function Card(){
           <p>1</p>
           <p>Alagoinhas</p>
           <p>Lucas</p>
-          <button className="reserve-btn" onClick={() => setButton(!button)}>
-            {button ? "Reservar" : "Indisponível"}
+          <button className="reserve-btn">
+            Reservar
           </button>
         </div>
     )

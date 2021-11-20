@@ -16,14 +16,14 @@ export const Footer = styled.footer`
     width: 20px;
   }
   p {
-    font-size:10px;
+    font-size: 10px;
     font-weight: 600;
   }
-  p > span{
+  p span {
     font-style: italic;
   }
   @media (min-width: 768px) {
-    p{
+    p {
       font-size: 15px;
     }
   }
