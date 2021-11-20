@@ -50,8 +50,16 @@ font-size: 2.4rem;
 line-height: 3.3rem;
 /* identical to box height */
 color: #FFFFFF;
-}
 
+}
+@media (max-width: 426px) {
+    width:30%;
+   p{margin-top:28px;} 
+}
+@media (max-width:321px){
+    width:40%;
+   p{margin-top:29px;} 
+}
 `
 
 export const Botoes = styled.div `
