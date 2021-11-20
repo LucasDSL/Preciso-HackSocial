@@ -1,19 +1,16 @@
 import styled from "styled-components";
-import "./styles";
-interface Props{
-  background_color_btn: boolean
-}
 export const Possibilidades = styled.div`
-  height: 100%;
   font-family: "Poppins";
   background-color: #10142d;
   color: #96969c;
   padding: 4% 10% 5% 10%;
   .possibilities-title {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
     h2 {
-      font-size: 32px;
+      font-size: 20px;
       font-weight: 500;
     }
     button {
@@ -33,40 +30,66 @@ export const Possibilidades = styled.div`
     }
   }
   .cards-section {
-    padding: 60px 0px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
-  .card-titles {
-    background-color: #272640;
-    color: #c5c5c5;
-    font-size: 16px;
-    display: flex;
-    justify-content: space-around;
-    border-radius: 7px;
-    padding: 15px 0px;
-  }
-  .card {
-    background-color: #96969c;
-    color: #ffffff;
-    font-size: 16px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-radius: 7px;
-    padding: 15px 0px;
-  }
-  button {
-    background-color: ${(props: Props) => props.background_color_btn ? '#006466' : 'black'};
+      padding: 60px 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .card-titles {
+      display: none;
+    }
+    .card {
+      background-color: #96969c;
+      color: #ffffff;
+      font-size: 16px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 50px;
+      gap: 20px;
+      padding: 15px 0px;
+    }
+    .reserve-btn {
+      background-color: ${"#006466"};
+      font-family: "Poppins";
+      color: white;
+      font-weight: 500;
+      border: none;
+      cursor: pointer;
+      max-height: 40px;
+      padding: 5px 15px;
+      border-radius: 5px;
+      font-size: 16px;
+    }
+  @media (min-width: 768px) {
     font-family: "Poppins";
-    color: white;
-    font-weight: 500;
-    border: none;
-    cursor: pointer;
-    max-height: 40px;
-    padding: 5px 15px;
-    border-radius: 5px;
-    font-size: 16px;
+    background-color: #10142d;
+    color: #96969c;
+    padding: 4% 10% 5% 10%;
+    .possibilities-title {
+      flex-direction: row;
+      justify-content: space-between;
+      h2 {
+        font-size: 32px;
+      }
+    }
+    .cards-section {
+      padding: 60px 0px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    .card-titles {
+      display: flex;
+      justify-content: space-around;
+      background-color: #272640;
+      padding: 15px 40px 15px 0px;
+      border-radius: 7px;
+    }
+    .card {
+      flex-direction: row;
+      border-radius: 7px;
+    }
   }
 `;
