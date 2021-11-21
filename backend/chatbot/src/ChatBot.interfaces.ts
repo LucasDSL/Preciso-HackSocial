@@ -2,6 +2,6 @@ export interface Offer {
     name: string
     isAvailable: boolean
     location: string
-    venomID: string
+    venomID: undefined | string
     description?: string
 }
