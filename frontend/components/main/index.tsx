@@ -1,4 +1,4 @@
-import { StyledMain } from './styles'
+import { StyledMain } from "./styles";
 
 export default function Main() {
     return(
@@ -7,7 +7,7 @@ export default function Main() {
         <h1>Confirmar Pedido</h1>
         <div className='alignInputs'>
             <label className='label-input'>
-                <span> Nome do constribuidor </span>
+                <span> Nome do contribuidor </span>
             <input type='text' placeholder=''/></label>
 
             <label className='label-input'>
@@ -47,5 +47,5 @@ export default function Main() {
         </div>
         
     </StyledMain>
-    )
+  );
 }

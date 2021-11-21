@@ -1,0 +1,12 @@
+0 - Saudação
+1 - Perguntar a cidade-sigladoestado
+2 - Confirmar a cidade
+3 - Caso não confirme, volta pro 1
+4 - Perguntar se é um aparelho ou uma peça
+5 - Caso seja peça, listar peças para seleção
+6 - Confirmar peça selecionada
+7 - Caso não confirme, volta pro 5
+8 - É aparelho, confirmar doação
+9 - Caso não confirme, perguntar se quer tentar novamente
+10 - Caso queria tentar novamente, volta pro 1
+11 - Não quer tentar novamente, despedida do bot
