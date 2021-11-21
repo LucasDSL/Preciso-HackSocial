@@ -13,5 +13,8 @@ Aguarde até que um QR-Code aparecça no seu terminal e logue no whatsappWeb do 
 Pronto, o Bot já estará funcionando.
 Envie uma mensagem para o número do seu celular e o bot responderá
 
---------------------
-Devido ao contexto desse projeto, o bot ainda est
+<br>
+<br>
+<br>
+
+Devido ao contexto desse projeto, o bot só foi configurado para falar com uma pessoa por vez. Esse problema ser
