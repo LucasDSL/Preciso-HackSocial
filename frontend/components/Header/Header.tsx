@@ -19,14 +19,20 @@ export default function Header() {
               <Image src={LivroCinza} layout="intrinsic" alt="livroCinza" />
             </S.LivroCinzaWrapper>
             <h1>
-              <a href='/pedidos' style={{color:'#C5C5C5'}}>Ver pedidos </a></h1>
+              <a href="/pedidos" style={{ color: "#C5C5C5" }}>
+                Ver pedidos{" "}
+              </a>
+            </h1>
           </S.VerPedidos>
           <S.Possibilidades>
             <S.SettingsWrapper>
               <Image src={SettingsImage} layout="intrinsic" alt="settings" />
             </S.SettingsWrapper>
             <h1>
-              <a href='/' style={{color:'#C5C5C5'}}>Possibilidades</a></h1>
+              <a href="/" style={{ color: "#C5C5C5" }}>
+                Possibilidades
+              </a>
+            </h1>
           </S.Possibilidades>
         </S.Botoes>
         <S.Perfil>

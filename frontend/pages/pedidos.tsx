@@ -7,7 +7,7 @@ export default function Pedido() {
   return (
     <div>
       <Header />
-      <Pedido />
+      <Pedidos />
       <Footer />
     </div>
   );
