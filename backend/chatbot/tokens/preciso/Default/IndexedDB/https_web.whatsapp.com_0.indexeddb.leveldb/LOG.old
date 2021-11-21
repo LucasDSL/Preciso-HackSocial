@@ -1,0 +1,48 @@
+2021/11/21-13:34:37.327 16b1e Reusing MANIFEST /home/vinicius/7/cuboshackathon/Preciso-HackSocial/backend/chatbot/tokens/preciso/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/21-13:34:37.327 16b1e Recovering log #340
+2021/11/21-13:34:37.348 16b1e Reusing old log /home/vinicius/7/cuboshackathon/Preciso-HackSocial/backend/chatbot/tokens/preciso/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000340.log 
+2021/11/21-13:34:50.758 16b3d Level-0 table #348: started
+2021/11/21-13:34:50.778 16b3d Level-0 table #348: 1195692 bytes OK
+2021/11/21-13:34:50.780 16b3d Delete type=0 #340
+2021/11/21-13:34:50.794 16b18 Compacting 1@1 + 4@2 files
+2021/11/21-13:34:50.838 16b18 Generated table #349@1: 40494 keys, 2203170 bytes
+2021/11/21-13:34:50.886 16b18 Generated table #350@1: 33059 keys, 2262326 bytes
+2021/11/21-13:34:50.932 16b18 Generated table #351@1: 28475 keys, 2267752 bytes
+2021/11/21-13:34:50.964 16b18 Generated table #352@1: 58299 keys, 1352021 bytes
+2021/11/21-13:34:50.965 16b18 Compacted 1@1 + 4@2 files => 8085269 bytes
+2021/11/21-13:34:50.966 16b18 compacted to: files[ 0 0 4 0 0 0 0 ]
+2021/11/21-13:34:50.966 16b18 Delete type=2 #342
+2021/11/21-13:34:50.966 16b18 Delete type=2 #344
+2021/11/21-13:34:50.966 16b18 Delete type=2 #345
+2021/11/21-13:34:50.966 16b18 Delete type=2 #343
+2021/11/21-13:34:50.966 16b18 Delete type=2 #348
+2021/11/21-13:34:51.202 16b19 Level-0 table #354: started
+2021/11/21-13:34:51.224 16b19 Level-0 table #354: 1175534 bytes OK
+2021/11/21-13:34:51.226 16b19 Delete type=0 #347
+2021/11/21-13:34:51.227 16b19 Compacting 1@1 + 4@2 files
+2021/11/21-13:34:51.276 16b19 Generated table #355@1: 45194 keys, 2209943 bytes
+2021/11/21-13:34:51.325 16b19 Generated table #356@1: 41519 keys, 2253160 bytes
+2021/11/21-13:34:51.371 16b19 Generated table #357@1: 29911 keys, 2261750 bytes
+2021/11/21-13:34:51.416 16b19 Generated table #358@1: 67680 keys, 1978026 bytes
+2021/11/21-13:34:51.416 16b19 Compacted 1@1 + 4@2 files => 8702879 bytes
+2021/11/21-13:34:51.417 16b19 compacted to: files[ 0 0 4 0 0 0 0 ]
+2021/11/21-13:34:52.341 16b19 Level-0 table #360: started
+2021/11/21-13:34:52.361 16b19 Level-0 table #360: 1028855 bytes OK
+2021/11/21-13:34:52.365 16b19 Delete type=2 #349
+2021/11/21-13:34:52.365 16b19 Delete type=0 #353
+2021/11/21-13:34:52.365 16b19 Delete type=2 #351
+2021/11/21-13:34:52.365 16b19 Delete type=2 #350
+2021/11/21-13:34:52.365 16b19 Delete type=2 #352
+2021/11/21-13:34:52.365 16b19 Delete type=2 #354
+2021/11/21-13:34:52.391 16b18 Compacting 1@1 + 4@2 files
+2021/11/21-13:34:52.449 16b18 Generated table #361@1: 46253 keys, 2220118 bytes
+2021/11/21-13:34:52.501 16b18 Generated table #362@1: 28535 keys, 2264628 bytes
+2021/11/21-13:34:52.549 16b18 Generated table #363@1: 30305 keys, 2264687 bytes
+2021/11/21-13:34:52.580 16b18 Generated table #364@1: 61716 keys, 1367820 bytes
+2021/11/21-13:34:52.580 16b18 Compacted 1@1 + 4@2 files => 8117253 bytes
+2021/11/21-13:34:52.582 16b18 compacted to: files[ 0 0 4 0 0 0 0 ]
+2021/11/21-13:34:52.582 16b18 Delete type=2 #358
+2021/11/21-13:34:52.582 16b18 Delete type=2 #355
+2021/11/21-13:34:52.582 16b18 Delete type=2 #356
+2021/11/21-13:34:52.582 16b18 Delete type=2 #360
+2021/11/21-13:34:52.582 16b18 Delete type=2 #357

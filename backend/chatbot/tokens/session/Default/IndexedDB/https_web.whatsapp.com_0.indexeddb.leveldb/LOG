@@ -1,0 +1,5 @@
+2021/11/21-00:30:15.066 2c1a8 Creating DB /home/vinicius/7/cuboshackathon/Preciso-HackSocial/backend/chatbot/tokens/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb since it was missing.
+2021/11/21-00:30:15.071 2c1a8 Reusing MANIFEST /home/vinicius/7/cuboshackathon/Preciso-HackSocial/backend/chatbot/tokens/session/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/21-00:30:53.149 2c1a7 Level-0 table #5: started
+2021/11/21-00:30:53.182 2c1a7 Level-0 table #5: 1164189 bytes OK
+2021/11/21-00:30:53.185 2c1a7 Delete type=0 #3
