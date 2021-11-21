@@ -80,9 +80,9 @@ export async function getStage(message: venom.Message, stage, offer: Offer){
         }
 
         if(stage == 7) {
-            const response = await postOffer(offer)
+            const postResponse = await postOffer(offer)
 
-            if(response == 200) {
+            if(postResponse == 201) {
                 const response = stage7(stage, message.body)
                 stage = response[1]
                 const reply = response[0]
