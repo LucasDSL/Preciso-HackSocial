@@ -1,4 +1,5 @@
 import {useState} from 'react'
+import Link from 'next/link';
 export default function Card(){
     const [button, setButton] = useState(false);
     return(
@@ -8,7 +9,8 @@ export default function Card(){
           <p>Alagoinhas</p>
           <p>Lucas</p>
           <button className="reserve-btn">
-            Reservar
+            <a href='/confirmar' style={{color:'white'}}>
+            Reservar </a>
           </button>
         </div>
     )

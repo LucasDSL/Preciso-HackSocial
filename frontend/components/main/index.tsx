@@ -32,7 +32,6 @@ export default function Main() {
             <label className='label-input'>
                 <span>Nome do componente </span>
             <input type='text' /></label>
-
         </div>
 
         <div className='alignInputs'>
@@ -41,7 +40,9 @@ export default function Main() {
             <input type='text' /></label>
 
             <div className='alignButtons'>
-                <button id='cancel' type="submit">Cancelar</button>
+                <button id='cancel' type="submit">
+                <a href='/' style={{color: 'white'}}>Cancelar</a>
+                </button>
                 <button id='send' type="reset">Enviar</button>
             </div>
         </div>

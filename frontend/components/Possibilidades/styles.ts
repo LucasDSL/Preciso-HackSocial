@@ -19,7 +19,6 @@ export const Possibilidades = styled.div`
       align-items: center;
       background-color: #ffffff;
       font-family: "Poppins";
-      color: #10142d;
       font-size: 16px;
       font-weight: 500;
       padding: 5px 50px;
