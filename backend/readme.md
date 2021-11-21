@@ -1,13 +1,14 @@
 <h1> Instruções </h1>
 
-Digite no seu terminal os seguinte comandos:
-  cd preciso 
-  docker-compose up -d
-  yarn start:dev
-  cd ..
-  cd chatbot
-  yarn run dev
-
+Digite no seu terminal os seguinte comandos: <br>
+<br>
+  cd preciso <br>
+  docker-compose up -d <br>
+  yarn start:dev <br>
+  cd .. <br>
+  cd chatbot <br>
+  yarn run dev <br>
+<br>
 Aguarde até que um QR-Code aparecça no seu terminal e logue no whatsappWeb do seu celular
 Pronto, o Bot já estará funcionando.
 Envie uma mensagem para o número do seu celular e o bot responderá
