@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const StyledMain = styled.main`
 
-    height: 80vh;
+    //height: 80vh;
     font-family: 'Poppins';
     background-color: #10142D;
     color: #96969C;
