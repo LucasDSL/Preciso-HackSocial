@@ -6,7 +6,7 @@ export class CustomerEntity {
     @PrimaryGeneratedColumn()
     customerID: number
 
-    @Column({ unique: true })
+    @Column({ unique: true, default: null })
     customerVenomID: string
 
     @Column()

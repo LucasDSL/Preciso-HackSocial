@@ -1,0 +1,13 @@
+2021/11/21-13:37:13.855 16fd6 Reusing MANIFEST /home/vinicius/7/cuboshackathon/Preciso-HackSocial/backend/chatbot/tokens/preciso/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/21-13:37:13.855 16fd6 Recovering log #359
+2021/11/21-13:37:13.891 16fd6 Reusing old log /home/vinicius/7/cuboshackathon/Preciso-HackSocial/backend/chatbot/tokens/preciso/Default/IndexedDB/https_web.whatsapp.com_0.indexeddb.leveldb/000359.log 
+2021/11/21-13:37:26.435 16ff4 Level-0 table #367: started
+2021/11/21-13:37:26.455 16ff4 Level-0 table #367: 1185527 bytes OK
+2021/11/21-13:37:26.457 16ff4 Delete type=0 #359
+2021/11/21-13:37:26.478 16fd3 Compacting 1@1 + 4@2 files
+2021/11/21-13:37:26.526 16fd3 Generated table #368@1: 46625 keys, 2216792 bytes
+2021/11/21-13:37:26.586 16fd3 Generated table #369@1: 28663 keys, 2264557 bytes
+2021/11/21-13:37:26.635 16fd3 Generated table #370@1: 30522 keys, 2262502 bytes
+2021/11/21-13:37:26.672 16fd3 Generated table #371@1: 65164 keys, 1575924 bytes
+2021/11/21-13:37:26.672 16fd3 Compacted 1@1 + 4@2 files => 8319775 bytes
+2021/11/21-13:37:26.673 16fd3 compacted to: files[ 0 0 4 0 0 0 0 ]

@@ -13,12 +13,12 @@ export class CustomerService {
         private CustomerRepository: Repository<CustomerEntity>
     ) {}
 
-    async findByVenomID(venomID: string): Promise<CustomerEntity> {
-        return await this.CustomerRepository.findOne({where: { customerVenomID: venomID }})
+    async findByVenomID(venomID: string): Promise<CustomerEntity[]> {
+        return await this.CustomerRepository.find({where: {customerVenomID: venomID} })
     }
 
     findOne(customerID: number): Promise<CustomerEntity> {
-        return this.CustomerRepository.findOne({where: {customerID: customerID}})
+        return this.CustomerRepository.findOne(customerID)
     }
 
     create(createCustomer: CustomerEntity) {

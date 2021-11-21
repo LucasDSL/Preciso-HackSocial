@@ -14,7 +14,7 @@
     "venom-bot": "^4.0.2"
   },
   "scripts": {
-    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/ChatBot.controller.ts",
+    "dev": "ts-node-dev --respawn --transpile-only --ignore-watch node_modules --no-notify src/ChatBot.server.ts",
     "start": "ts-node src/server.ts"
   }
 }

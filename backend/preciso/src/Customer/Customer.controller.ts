@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post } from "@nestjs/common";
+import { Body, Controller, Get, Param, Post } from "@nestjs/common";
 
 import { Sender } from "venom-bot/dist/api/model/message";
 
@@ -18,12 +18,14 @@ export class CustomerController {
     }
 
     @Get('venomID')
-    async findByVenomID(@Body() customerVenomID: string): Promise<CustomerEntity> {
-        return await this.customerService.findByVenomID(customerVenomID)
+    async findByVenomID(@Body() query): Promise<CustomerEntity> {
+        const customerVenomID = query.customerVenomID
+        return await this.customerService.findByVenomID(customerVenomID)[0]
     }
 
     @Post('new')
-    create(@Body() messageSender: Sender) {
+    create(@Body() Body) {
+        const messageSender: Sender = Body.messageSender
         const customerEntity = new CustomerEntity
         customerEntity.customerVenomID = messageSender.id
         customerEntity.customerName = messageSender.shortName

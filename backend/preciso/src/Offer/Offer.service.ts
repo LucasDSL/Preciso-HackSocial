@@ -41,7 +41,7 @@ export class OfferService {
         createOffer.location = createOfferDto.location
         createOffer.isAvailable = createOfferDto.isAvailable
         createOffer.description = createOfferDto.description
-        createOffer.customer = customer
+        createOffer.customer = customer[0]
 
         const offer = this.OfferRepository.create(createOffer)
 

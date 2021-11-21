@@ -25,7 +25,13 @@ export class OfferController {
 
 
     @Post('new')
-   async create(@Body() createOfferDto: CreateOfferDto) {        
+   async create(@Body() Body) {
+        const createOfferDto = {} as  CreateOfferDto
+        createOfferDto.offerName = Body.offerName
+        createOfferDto.customerVenomID = Body.customerVenomID
+        createOfferDto.description = Body.offerDescription
+        createOfferDto.location = Body.offerLocation
+        createOfferDto.isAvailable = Body.isAvailable      
         const offer = await this.offerService.create(createOfferDto)
         
         return offer
