@@ -13,8 +13,8 @@ export class CustomerService {
         private CustomerRepository: Repository<CustomerEntity>
     ) {}
 
-    findByVenomID(venomID: string): Promise<CustomerEntity> {
-        return this.CustomerRepository.findOne({where: { customerVenomID: venomID }})
+    async findByVenomID(venomID: string): Promise<CustomerEntity> {
+        return await this.CustomerRepository.findOne({where: { customerVenomID: venomID }})
     }
 
     findOne(customerID: number): Promise<CustomerEntity> {
@@ -31,8 +31,8 @@ export class CustomerService {
         this.CustomerRepository.update( {customerID}, {lastMessage: lastMessage} )
     }
 
-    remove(costumerID: number) {
-        return this.CustomerRepository.delete(costumerID)
+    remove(customerID: number) {
+        return this.CustomerRepository.delete(customerID)
     }
     
 }
