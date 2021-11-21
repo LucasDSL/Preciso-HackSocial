@@ -23,7 +23,7 @@ export class CustomerController {
     }
 
     @Post('new')
-    create(messageSender: Sender) {
+    create(@Body() messageSender: Sender) {
         const customerEntity = new CustomerEntity
         customerEntity.customerVenomID = messageSender.id
         customerEntity.customerName = messageSender.shortName
