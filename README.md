@@ -4,7 +4,7 @@
 ## Equipe:
 [Beatriz Morais](https://github.com/ibeatrizm)<br>
 [Caio Oliveira](https://github.com/CaioOliveira777)<br>
-[Vinícius Martis](https://github.com/viniciusMB)<br>
+[Vinícius Martins](https://github.com/viniciusMB)<br>
 [Lucas Lima](https://github.com/LucasDSL)<br>
 
 ## Trajetória:
