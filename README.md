@@ -3,7 +3,7 @@
 - Proposta : "Solução digital que leve a educação em tecnologia para jovens em vulnerabilidade."
 ## Equipe:
 ### Front-end:
-[Beatriz Morais](https://github.com/ibeatrizm)<br>
+[Beatriz Morais](https://github.com/beaxmorais)<br>
 [Caio Oliveira](https://github.com/CaioOliveira777)<br>
 [Lucas Lima](https://github.com/LucasDSL)<br>
 ### Back-end:
